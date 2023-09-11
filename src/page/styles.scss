@@ -1,0 +1,12 @@
+.SideBar {
+    a {
+        padding: 20px 0px 20px 24px;
+
+        &.active {
+            background-color: rgba(231, 230, 230, 0.418);
+        }
+    }
+}
+// .Transform {
+//     transform: translate();
+// }
