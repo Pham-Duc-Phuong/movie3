@@ -49,12 +49,16 @@ module.exports = {
         25: '25px',
         26: '26px',
         28: '28px',
+        30: '30px',
+        40: '40px',
         50: '50px',
         100: '100px',
         120: '120px',
         'inputSearch': '46px',
         'detailmovieX': '15%',
         'detailmovieY': '20%',
+        'bookingX': '3.4%',
+        'bookingY': '6%',
       },
       borderRadius: {
         6: '6px',
@@ -62,7 +66,9 @@ module.exports = {
         16: '16px'
       },
       gridTemplateColumns: {
-        '2a': '250px auto'
+        '2a': '250px auto',
+        '2b': 'auto 500px',
+        '2c': '1fr 2fr'
       },
       backgroundColor: theme => ({
         ...theme('color'),
@@ -71,15 +77,21 @@ module.exports = {
         '#130c1c': '#130c1c',
       }),
       height:{
-        image: '450px',
+        image: '380px',
         imageA: '500px',
-        title: '60px',
-        detailmovie: '600px'
+        title: '40px',
+        detailmovie: '600px',
+        bookingY:'850px'
       },
       width:{
         sidebar: '250px',
         detailmovie: '1300px',
-        800: '800px'
+        800: '800px',
+        300: '300px',
+        bookingX:'1550px'
+      },
+      lineHeight:{
+        "40": '40px'
       }
     },
     plugins: [

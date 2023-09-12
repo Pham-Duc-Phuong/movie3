@@ -53,15 +53,15 @@ const Detail = () => {
                 </tr>
               </tbody>
             </table>
-            <div>
-              <button className="inline-flex items-center p-8 pl-14 pr-14 mr-28 text-20 font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <div className='mb-24'>
+              <button className="inline-flex items-center p-8 pl-14 pr-14 mr-28 text-20 font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                 onClick={() => {
                   navigate('/list')
                 }}
               >
-                Quay lại
+                Trailer
               </button>
-              <button className="inline-flex items-center p-8 pl-17 pr-17 text-20 font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              <button className="inline-flex items-center p-8 pl-17 pr-17 text-20 font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
                 onClick={() => {
                   const path = generatePath(PATH.booking, { bookingid: detailMovie.maPhim })
                   navigate(path)
@@ -71,6 +71,13 @@ const Detail = () => {
               </button>
             </div>
           </div>
+          <a className="inline-flex cursor-pointer items-center mr-28 text-18 font-medium text-center text-black hover:underline focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            onClick={() => {
+              navigate('/list')
+            }}
+          >
+            <i className="fa-solid fa-arrow-left pr-6"></i>Quay lại
+          </a>
         </div>
       </div>
 

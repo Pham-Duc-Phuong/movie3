@@ -1,11 +1,14 @@
 import React from 'react'
-
+import ChairList from './ChairList'
+import Result from './Result'
 const Booking = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Hello world!
-      </h1>
+    <div className='h-screen'>
+      
+      <div className='grid grid-cols-2b w-bookingX h-bookingY bg-white translate-x-bookingX translate-y-bookingY rounded-lg'>
+      <ChairList/>
+      <Result/>
+      </div>
     </div>
   )
 }
