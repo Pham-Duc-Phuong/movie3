@@ -55,9 +55,9 @@ const Detail = () => {
             </table>
             <div className='mb-24'>
               <button className="inline-flex items-center p-8 pl-14 pr-14 mr-28 text-20 font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-                onClick={() => {
-                  navigate('/list')
-                }}
+                // onClick={() => {
+                //   navigate('/list')
+                // }}
               >
                 Trailer
               </button>
