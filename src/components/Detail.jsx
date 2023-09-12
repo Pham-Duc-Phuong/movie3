@@ -80,7 +80,6 @@ const Detail = () => {
           </a>
         </div>
       </div>
-
     </div >
   )
 }

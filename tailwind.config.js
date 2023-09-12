@@ -52,8 +52,10 @@ module.exports = {
         30: '30px',
         40: '40px',
         50: '50px',
+        70: '70px',
         100: '100px',
         120: '120px',
+        150: '150px',
         'inputSearch': '46px',
         'detailmovieX': '15%',
         'detailmovieY': '20%',
@@ -81,7 +83,8 @@ module.exports = {
         imageA: '500px',
         title: '40px',
         detailmovie: '600px',
-        bookingY:'850px'
+        bookingY:'850px',
+        result:'367px'
       },
       width:{
         sidebar: '250px',
